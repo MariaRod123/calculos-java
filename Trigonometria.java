@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Trigonometria {
 
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class Trigonometria {
             sin=Math.sin(Math.toRadians(ang));
             /* calculo del valor de cateto opuesto de un triángulo rectángulo dado el ángulo y la hipotenusa*/
             catop= hip * sin;
-            System.out.println("La medida del cateto opuesto es:" +catop + "cm");
+            System.out.println("La medida del cateto opuesto es: " +catop + " cm ");
             System.out.println("El seno del ángulo es:" +sin);
         }
         else if (opcion ==2) {
@@ -35,7 +34,7 @@ public class Trigonometria {
             cos=Math.cos(Math.toRadians(ang));
             /* calculo del valor de cateto adyacente de un triángulo rectángulo dado el ángulo y la hipotenusa*/
             catady= hip * cos;
-            System.out.println("La medida del cateto adyacente es:" +catady + "cm");
+            System.out.println("La medida del cateto adyacente es: " +catady + " cm ");
             System.out.println("El coseno del ángulo es:" +cos);
 
         }
@@ -58,8 +57,8 @@ public class Trigonometria {
                     tan=Math.tan(Math.toRadians(ang));
                     /* calculo del valor de cateto adyacente de un triángulo rectángulo dado el cateto opuesto y la tangente*/
                     catady= catop * tan;
-                    System.out.println("La medida del cateto opuesto es:" +catady + "cm");
-                    System.out.println("El seno del ángulo es:" +tan);
+                    System.out.println("La medida del cateto adyacente es:" +catady + " cm ");
+                    System.out.println("La tangente del ángulo es: " +tan);
 
                 case 2:
                     System.out.println("Ingrese medida del cateto adyacente");
