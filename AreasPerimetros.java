@@ -53,7 +53,7 @@ public class AreasPerimetros {
                     System.out.println("El perímetro del triángulo es:" + ptri + "cm");
 
                     System.out.println("Ingrese la medida de la altura");
-                    System.out.println("Ingrese la medida de la base del triángulo (lado más largo)");
+                    System.out.println("Ingrese la medida de la base del triángulo");
                     Scanner base= new Scanner(System.in);
                     b=base.nextFloat();
                     Scanner altura= new Scanner(System.in);
